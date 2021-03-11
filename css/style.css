@@ -107,7 +107,7 @@ footer address {
   text-transform: uppercase;
 }
 
-.hero .button {
+.hero .btn {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-weight: 700;
@@ -161,7 +161,7 @@ footer address {
 
 /* Button */
 
-.button {
+.btn {
   background-color: var(--seconf-bg-color);
   color: var(--title-text-color);
   font-family: inherit;
@@ -169,15 +169,15 @@ footer address {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
 
 /* Work portfolio */
 
-.filter-work .button {
+.filter-work .btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
