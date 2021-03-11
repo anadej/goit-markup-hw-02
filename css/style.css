@@ -12,6 +12,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -47,7 +48,6 @@ footer .logo {
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -67,7 +67,6 @@ footer .logo {
 .header-contact {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -75,7 +74,6 @@ footer .logo {
 
 .footer-contact {
   color: var(--second-white-color);
-  font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
 }
@@ -83,7 +81,6 @@ footer .logo {
 footer address {
   color: var(--primary-white-color);
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -136,14 +133,13 @@ footer address {
 
 .feature-list .title {
   color: var(--title-text-color);
+  font-size: inherit;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .feature-list .text {
-  font-size: 14px;
   line-height: 1.71;
 }
 
